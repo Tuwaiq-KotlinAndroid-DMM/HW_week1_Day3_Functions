@@ -4,7 +4,7 @@ fun main() {
     var fireBallsRemaining = 35
     var fulRemaining = 30
 
-    // print how many fireball
+    // print how many fulRemaining
     println("remaining fuel: " +castFireball(fireBallsRemaining,fulRemaining))
 
 }
@@ -12,8 +12,8 @@ fun main() {
 
 
 fun castFireball(fireBallsRemaining:Int, fulRemaining :Int): Int {
-    // Declere cariable for save how many fireball
-    var z :Int =fulRemaining
+    // Declere cariable for save how many fulRemaining
+    var z :Int = fulRemaining
     if (fulRemaining >= fireBallsRemaining  ) {
         if (fulRemaining >=1 &&  fulRemaining <= 50)
          z = fulRemaining - fireBallsRemaining
