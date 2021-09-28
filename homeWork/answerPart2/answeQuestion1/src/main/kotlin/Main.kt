@@ -1,7 +1,7 @@
 fun main(args: Array<String>) {
 
     // print what programming doing
-    println("The program extracts the maximum number from among the three input numbers")
+    println("The program extracts the maximum number from among the three input numbers.")
 
     // Declare variables and have the user enter the value for three numbers
 
