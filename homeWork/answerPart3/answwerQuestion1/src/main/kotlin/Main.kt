@@ -1,6 +1,6 @@
 fun main(args: Array<String>) {
     // What program doing
-    println("The program for enter two numbers and it's calculate the sum ,multiply , subtract and divide")
+    println("The program for enter two numbers and it's calculate the sum ,multiply , subtract and divide.")
 
     // Declare the variables
     // massage for user to input the numbers
