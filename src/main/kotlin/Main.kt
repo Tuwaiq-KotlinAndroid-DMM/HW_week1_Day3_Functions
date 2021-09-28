@@ -1,14 +1,14 @@
 fun main(args: Array<String>) {
-    var num1 = 10
-    var num2 = 12
-    add(10, 12)
-    fullname("ahmad","abdullah","alwaleed")
+    maximum(10, 12, 18)
 }
+val maximum = fun(num1: Int, num2: Int, num3: Int) {
 
-fun add(num1: Int, num2: Int) {
-    println(num1 + num2)
-}
-fun fullname(first: String, middle: String, last: String) {
-
-    println("the name is $first $middle $last")
+    if (num1 >= num2) {
+        if (num1 >= num3) {
+             " the greatest number is $num1 "
+        }
+    } else if (num2 >= num3) {
+        " the greatest number is $num2 "
+    } else
+       println (" the greatest number is $num3 ")
 }
