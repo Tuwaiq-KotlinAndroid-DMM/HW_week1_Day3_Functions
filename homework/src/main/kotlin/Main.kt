@@ -18,18 +18,17 @@
 //}
 ////Part 2 Q3
 //fun main() {
-//
-//val maximum=fun(n1:Int,n2:Int,n3:Int) : Int.Companion {
-//    return Int
+//val maximum : (Int, Int, Int) -> Int = {
+//        n1,n2,n3 ->
+//    if (n1 > n2 && n1 > n3)
+//        n1
+//    else if (n2 > n3 && n2 > n1)
+//        n2
+//    else n3
 //}
-//    val n1 = 4
-//    val n2 = 5
-//    val n3 = 3
-//    when {
-//        n1 >= n2 && n1 >= n3 -> println("$n1 is the largest number.")
-//        n2 >= n1 && n2 >= n3 -> println("$n2 is the largest number.")
-//        else -> println("$n3 is the largest number.")
-//}}
+//  println("The greatest number is " +maximum(12,11,22))
+//}
+
 ////part 3 challenge 1 (Opitnal)
 //fun add(x:Int, y:Int):Int{
 //    return (x+y)
