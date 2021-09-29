@@ -19,16 +19,19 @@ fun main(){
     val num2 = readLine()!!.toInt()
     print("Please Enter third number here:")
     val num3 = readLine()!!.toInt()
-    val result = maximum(num1,num2,num3)
-    print("The maximum number is  $result")
+    print(maximum(num1,num2,num3))
 }
-val maximum = fun(num1:Int,num2:Int,num3:Int):Int {
-    return if (num1 >= num2 && num1 >= num3) {
+val maximum:(Int,Int,Int) ->{num1:Int,num2:Int,num3:Int:Int->
+    return if (num1 <= num2 && num1 <= num3) {
         return num1
-    } else if (num2 >= num1 && num2 >= num3) {
+    } else if (num2 <= num1 && num2 <= num3) {
         return num2
     } else {
         num3
     }
+}
+
 
 }
+// val any:() ->{
+// }
