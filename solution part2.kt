@@ -1,16 +1,28 @@
-fun main(){
-    val maximum(num1=10, num=12, num=18)
+//Quastion-week1-day3
+//part3
+
+fun main() {
+
+
+    var num1 = 10
+    var num2 = 14
+    var num3 = 12
+
+
+    println(maximum(num1, num2, num3))
 }
 
-val maximum = fun(num1:Int, num2:Int, num3:Int){
-    if (num1>=num2){
-        if(num1>=num3){
-            println( "the maximum number is $num1")
-        }
-        else if (num2>=num3) {
-            println("the maximum number is $num2")
-        }
-        else {
-            println("the maximum number is $num3")
-        }
-    }
+val maximum: (Int, Int, Int) -> String = { n1: Int, n2: Int, n3: Int ->
+    if (n1 >= n2 && n1 >= n3)
+        "the largest number is $n1"
+    else if (n2 >= n3 && n2 >= n1)
+        "the largest number is $n2"
+    else
+        "the largest number is $n3"
+}
+
+
+
+
+
+    
